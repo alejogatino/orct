@@ -1,0 +1,60 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>
+    <ion-title>Asistencia</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title size="large">Asistencia</ion-title>
+    </ion-toolbar>
+  </ion-header>
+
+  <!-- Contenido de la página de asistencia -->
+  <ion-card>
+    <ion-card-header>
+      Asistencia del Estudiante
+    </ion-card-header>
+    <ion-card-content>
+      <ion-list>
+        <ion-item>
+          <ion-label>Día 1</ion-label>
+          <ion-note slot="end">Asistido</ion-note>
+        </ion-item>
+        <ion-item>
+          <ion-label>Día 2</ion-label>
+          <ion-note slot="end">Asistido</ion-note>
+        </ion-item>
+        <ion-item>
+          <ion-label>Día 3</ion-label>
+          <ion-note slot="end">No Asistido</ion-note>
+        </ion-item>
+        <!-- Agrega más elementos para los días de asistencia -->
+      </ion-list>
+    </ion-card-content>
+  </ion-card>
+
+  <!-- Lo que tiene el estudiante -->
+  <ion-card>
+    <ion-card-header>
+      Lo que Tiene el Estudiante
+    </ion-card-header>
+    <ion-card-content>
+      <ion-list>
+        <ion-item>
+          <ion-label>Clase de Ballet</ion-label>
+          <ion-note slot="end">Pendiente</ion-note>
+        </ion-item>
+        <ion-item>
+          <ion-label>Clase de Salsa</ion-label>
+          <ion-note slot="end">Asistiendo</ion-note>
+        </ion-item>
+        <!-- Agrega más elementos para lo que tiene el estudiante -->
+      </ion-list>
+    </ion-card-content>
+  </ion-card>
+</ion-content>

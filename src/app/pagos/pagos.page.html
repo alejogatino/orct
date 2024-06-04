@@ -1,0 +1,42 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>
+    <ion-title>Pagos</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title size="large">Pagos</ion-title>
+    </ion-toolbar>
+  </ion-header>
+
+  <!-- Contenido de la página de Pagos -->
+  <ion-list>
+    <!-- Lista de pagos realizados -->
+    <ion-item>
+      <ion-label>Pago realizado el 01/06/2024</ion-label>
+      <ion-note slot="end">$50.00</ion-note>
+    </ion-item>
+    <ion-item>
+      <ion-label>Pago realizado el 15/06/2024</ion-label>
+      <ion-note slot="end">$50.00</ion-note>
+    </ion-item>
+    
+    <!-- Lista de pagos pendientes -->
+    <ion-item>
+      <ion-label>Pago pendiente por el mes de julio</ion-label>
+      <ion-note slot="end">$50.00</ion-note>
+    </ion-item>
+    <ion-item>
+      <ion-label>Pago pendiente por el mes de agosto</ion-label>
+      <ion-note slot="end">$50.00</ion-note>
+    </ion-item>
+  </ion-list>
+
+  <!-- Botón para realizar un nuevo pago -->
+  <ion-button expand="block" color="primary">Realizar Nuevo Pago</ion-button>
+</ion-content>
