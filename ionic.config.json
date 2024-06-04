@@ -1,0 +1,7 @@
+{
+  "name": "orcts",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
